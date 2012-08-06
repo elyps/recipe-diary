@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>files</key>
+	<dict>
+		<key>AddIngredient.nib</key>
+		<data>
+		TZqE2mRSKf3kHuL5yKh0Kn3scPE=
+		</data>
+		<key>AddRecipe.nib</key>
+		<data>
+		c7LLWpU2sBsHev7vqlzRJwbdFUI=
+		</data>
+		<key>Ingredients.nib</key>
+		<data>
+		BTmqyoOJ7kFPRtW1y1P9h6HgViU=
+		</data>
+		<key>MainWindow.nib</key>
+		<data>
+		Zq1xfuVpkHrF4fOQ2CnPTt4JJwI=
+		</data>
+		<key>PkgInfo</key>
+		<data>
+		n57qDP4tZfLD1rCS43W0B4LQjzE=
+		</data>
+		<key>Recipes.nib</key>
+		<data>
+		LlKcLEjs0XwugWVeUtuo33zKIZ4=
+		</data>
+		<key>embedded.mobileprovision</key>
+		<data>
+		j1WF6vPMPJ6r5f2G3oqVt2G1cYY=
+		</data>
+		<key>recipes.db</key>
+		<data>
+		tQwvuEBVZls4jTk5/7Ns6xUR4OE=
+		</data>
+		<key>recipes.sql</key>
+		<data>
+		m3qiMszjGki1k4dzrvyC4j23cKU=
+		</data>
+	</dict>
+	<key>rules</key>
+	<dict>
+		<key>.*</key>
+		<true/>
+		<key>Info.plist</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>10</real>
+		</dict>
+		<key>ResourceRules.plist</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>100</real>
+		</dict>
+	</dict>
+</dict>
+</plist>

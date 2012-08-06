@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* RecipesAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1091, 520}}";
+			sepNavSelRange = "{1228, 0}";
+			sepNavVisRange = "{0, 1378}";
+			sepNavWindowFrame = "{{61, 273}, {750, 558}}";
+		};
+	};
+	1D3623250D0F684500981E51 /* RecipesAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1510, 1417}}";
+			sepNavSelRange = "{3388, 0}";
+			sepNavVisRange = "{0, 1243}";
+			sepNavWindowFrame = "{{84, 252}, {750, 558}}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* Recipes */ = {
+		activeExec = 0;
+		executables = (
+			6627F3B0117A06D100F88CDE /* Recipes */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* RecipesViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1089, 627}}";
+			sepNavSelRange = "{705, 0}";
+			sepNavVisRange = "{0, 893}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* RecipesViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1118, 1820}}";
+			sepNavSelRange = "{382, 0}";
+			sepNavVisRange = "{0, 1876}";
+			sepNavWindowFrame = "{{678, 131}, {750, 558}}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 6627F3B0117A06D100F88CDE /* Recipes */;
+		activeSDKPreference = iphonesimulator4.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Recipes */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* Recipes */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = 6627F3C0117A06D400F88CDE /* Code sense */;
+		executables = (
+			6627F3B0117A06D100F88CDE /* Recipes */,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					189,
+					20,
+					90,
+					90,
+					20,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXBookmarksDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBookmarksDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					200,
+					200,
+					181,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBookmarksDataSource_LocationID,
+					PBXBookmarksDataSource_NameID,
+					PBXBookmarksDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					913,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					873,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 318816622;
+			PBXWorkspaceStateSaveDate = 318816622;
+		};
+		perUserProjectItems = {
+			662E0C2F11A1DECD004B0C64 /* PBXTextBookmark */ = 662E0C2F11A1DECD004B0C64 /* PBXTextBookmark */;
+			662E0C3111A1DECD004B0C64 /* PBXTextBookmark */ = 662E0C3111A1DECD004B0C64 /* PBXTextBookmark */;
+			66A0B4BF11A07C130050CA54 /* PlistBookmark */ = 66A0B4BF11A07C130050CA54 /* PlistBookmark */;
+			66A0B5C511A08BE40050CA54 /* PBXTextBookmark */ = 66A0B5C511A08BE40050CA54 /* PBXTextBookmark */;
+			66A0B60F11A090610050CA54 /* PBXTextBookmark */ = 66A0B60F11A090610050CA54 /* PBXTextBookmark */;
+			66E1C94B11A0505C0012EFDB /* PBXTextBookmark */ = 66E1C94B11A0505C0012EFDB /* PBXTextBookmark */;
+			66E1C96511A051500012EFDB /* PBXTextBookmark */ = 66E1C96511A051500012EFDB /* PBXTextBookmark */;
+			66FAC29B1300C3A5002DC216 /* PBXTextBookmark */ = 66FAC29B1300C3A5002DC216 /* PBXTextBookmark */;
+			66FAC29C1300C3A5002DC216 /* PBXTextBookmark */ = 66FAC29C1300C3A5002DC216 /* PBXTextBookmark */;
+			66FAC29D1300C3A5002DC216 /* PBXTextBookmark */ = 66FAC29D1300C3A5002DC216 /* PBXTextBookmark */;
+			66FAC29E1300C3A5002DC216 /* PBXTextBookmark */ = 66FAC29E1300C3A5002DC216 /* PBXTextBookmark */;
+			66FAC29F1300C3A5002DC216 /* PBXTextBookmark */ = 66FAC29F1300C3A5002DC216 /* PBXTextBookmark */;
+			66FAC2A01300C3A5002DC216 /* PBXTextBookmark */ = 66FAC2A01300C3A5002DC216 /* PBXTextBookmark */;
+			66FAC2A11300C3A5002DC216 /* PBXTextBookmark */ = 66FAC2A11300C3A5002DC216 /* PBXTextBookmark */;
+			66FAC2A21300C3A5002DC216 /* PBXTextBookmark */ = 66FAC2A21300C3A5002DC216 /* PBXTextBookmark */;
+			66FAC2A31300C3A5002DC216 /* PBXTextBookmark */ = 66FAC2A31300C3A5002DC216 /* PBXTextBookmark */;
+			66FAC2A41300C3A5002DC216 /* PBXTextBookmark */ = 66FAC2A41300C3A5002DC216 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 6627F3BF117A06D400F88CDE /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1089, 630}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 356}";
+		};
+	};
+	6627F3B0117A06D100F88CDE /* Recipes */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Recipes;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	6627F3BF117A06D400F88CDE /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	6627F3C0117A06D400F88CDE /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	6627F596117B35B100F88CDE /* IngredientsViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {955, 586}}";
+			sepNavSelRange = "{285, 23}";
+			sepNavVisRange = "{0, 528}";
+		};
+	};
+	6627F597117B35B100F88CDE /* IngredientsViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1335, 1937}}";
+			sepNavSelRange = "{3286, 0}";
+			sepNavVisRange = "{2515, 895}";
+			sepNavWindowFrame = "{{153, 189}, {750, 558}}";
+		};
+	};
+	6627F722117B58CD00F88CDE /* AddRecipeViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {968, 613}}";
+			sepNavSelRange = "{414, 22}";
+			sepNavVisRange = "{0, 503}";
+		};
+	};
+	6627F723117B58CD00F88CDE /* AddRecipeViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {866, 1469}}";
+			sepNavSelRange = "{484, 0}";
+			sepNavVisRange = "{289, 477}";
+		};
+	};
+	6627F8FB117BD0BC00F88CDE /* AddIngredientViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1091, 513}}";
+			sepNavSelRange = "{237, 0}";
+			sepNavVisRange = "{0, 721}";
+		};
+	};
+	6627F8FC117BD0BC00F88CDE /* AddIngredientViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1146, 1378}}";
+			sepNavSelRange = "{971, 2}";
+			sepNavVisRange = "{400, 1445}";
+		};
+	};
+	6627FB5D117CF0A600F88CDE /* RecipesViewController.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = RecipesViewController.m;
+		path = /Users/adam/Documents/xcode/Recipes/Classes/RecipesViewController.m;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1118, 1742}}";
+			sepNavSelRange = "{3131, 0}";
+			sepNavVisRange = "{2274, 1412}";
+		};
+	};
+	6627FB5F117CF0B600F88CDE /* RecipesViewController.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = RecipesViewController.h;
+		path = /Users/adam/Documents/xcode/Recipes/Classes/RecipesViewController.h;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1091, 513}}";
+			sepNavSelRange = "{766, 0}";
+			sepNavVisRange = "{0, 893}";
+		};
+	};
+	6627FB63117CF0D800F88CDE /* AddRecipeViewController.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = AddRecipeViewController.m;
+		path = /Users/adam/Documents/xcode/Recipes/Classes/AddRecipeViewController.m;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1146, 1443}}";
+			sepNavSelRange = "{623, 0}";
+			sepNavVisRange = "{147, 951}";
+		};
+	};
+	662E0C2F11A1DECD004B0C64 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6627F8FC117BD0BC00F88CDE /* AddIngredientViewController.m */;
+		name = "AddIngredientViewController.m: 40";
+		rLen = 2;
+		rLoc = 971;
+		rType = 0;
+		vrLen = 1445;
+		vrLoc = 400;
+	};
+	662E0C3111A1DECD004B0C64 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 356;
+		vrLoc = 0;
+	};
+	66A0B4BF11A07C130050CA54 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Recipes-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/adam/Documents/xcode/Recipes/Recipes-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	66A0B5C511A08BE40050CA54 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6627F722117B58CD00F88CDE /* AddRecipeViewController.h */;
+		name = "AddRecipeViewController.h: 19";
+		rLen = 22;
+		rLoc = 414;
+		rType = 0;
+		vrLen = 503;
+		vrLoc = 0;
+	};
+	66A0B60F11A090610050CA54 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6627F596117B35B100F88CDE /* IngredientsViewController.h */;
+		name = "IngredientsViewController.h: 13";
+		rLen = 23;
+		rLoc = 285;
+		rType = 0;
+		vrLen = 528;
+		vrLoc = 0;
+	};
+	66E1C88111A04ADE0012EFDB /* SQLiteAccess.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1091, 513}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 539}";
+		};
+	};
+	66E1C88211A04ADE0012EFDB /* SQLiteAccess.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1091, 2002}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{3024, 1568}";
+		};
+	};
+	66E1C88611A04BD70012EFDB /* recipes.sql */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1091, 536}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1891}";
+		};
+	};
+	66E1C94B11A0505C0012EFDB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 66E1C88611A04BD70012EFDB /* recipes.sql */;
+		name = "recipes.sql: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1891;
+		vrLoc = 0;
+	};
+	66E1C96511A051500012EFDB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 66E1C96611A051500012EFDB /* RecipesAppDelegate.h */;
+		name = "RecipesAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1380;
+		vrLoc = 0;
+	};
+	66E1C96611A051500012EFDB /* RecipesAppDelegate.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = RecipesAppDelegate.h;
+		path = /Users/adam/Documents/xcode/Recipes/Classes/non_persistent/RecipesAppDelegate.h;
+		sourceTree = "<absolute>";
+	};
+	66FAC29B1300C3A5002DC216 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 66E1C88111A04ADE0012EFDB /* SQLiteAccess.h */;
+		name = "SQLiteAccess.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 539;
+		vrLoc = 0;
+	};
+	66FAC29C1300C3A5002DC216 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 66E1C88211A04ADE0012EFDB /* SQLiteAccess.m */;
+		name = "SQLiteAccess.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1568;
+		vrLoc = 3024;
+	};
+	66FAC29D1300C3A5002DC216 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6627F597117B35B100F88CDE /* IngredientsViewController.m */;
+		name = "IngredientsViewController.m: 88";
+		rLen = 0;
+		rLoc = 3286;
+		rType = 0;
+		vrLen = 1317;
+		vrLoc = 0;
+	};
+	66FAC29E1300C3A5002DC216 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6627FB63117CF0D800F88CDE /* AddRecipeViewController.m */;
+		name = "AddRecipeViewController.m: 32";
+		rLen = 0;
+		rLoc = 623;
+		rType = 0;
+		vrLen = 951;
+		vrLoc = 147;
+	};
+	66FAC29F1300C3A5002DC216 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6627F8FB117BD0BC00F88CDE /* AddIngredientViewController.h */;
+		name = "AddIngredientViewController.h: 12";
+		rLen = 0;
+		rLoc = 237;
+		rType = 0;
+		vrLen = 721;
+		vrLoc = 0;
+	};
+	66FAC2A01300C3A5002DC216 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6627FB5D117CF0A600F88CDE /* RecipesViewController.m */;
+		name = "RecipesViewController.m: 97";
+		rLen = 0;
+		rLoc = 3131;
+		rType = 0;
+		vrLen = 1412;
+		vrLoc = 2274;
+	};
+	66FAC2A11300C3A5002DC216 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* RecipesAppDelegate.m */;
+		name = "RecipesAppDelegate.m: 71";
+		rLen = 0;
+		rLoc = 3388;
+		rType = 0;
+		vrLen = 1243;
+		vrLoc = 0;
+	};
+	66FAC2A21300C3A5002DC216 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* RecipesAppDelegate.h */;
+		name = "RecipesAppDelegate.h: 35";
+		rLen = 0;
+		rLoc = 1228;
+		rType = 0;
+		vrLen = 1378;
+		vrLoc = 0;
+	};
+	66FAC2A31300C3A5002DC216 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6627FB5F117CF0B600F88CDE /* RecipesViewController.h */;
+		name = "RecipesViewController.h: 24";
+		rLen = 0;
+		rLoc = 766;
+		rType = 0;
+		vrLen = 893;
+		vrLoc = 0;
+	};
+	66FAC2A41300C3A5002DC216 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 66E1C88611A04BD70012EFDB /* recipes.sql */;
+		name = "recipes.sql: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1891;
+		vrLoc = 0;
+	};
+}

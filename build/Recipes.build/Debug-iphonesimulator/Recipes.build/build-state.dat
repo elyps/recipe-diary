@@ -1,0 +1,1261 @@
+TRecipes
+v7
+r0
+t318816739.530193
+cCheck dependencies
+cProcessInfoPlistFile /Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator/Recipes.app/Info.plist Recipes-Info.plist
+cCompileXIB /Users/adam/Documents/xcode/Recipes/MainWindow.xib
+cCompileXIB /Users/adam/Documents/xcode/Recipes/Recipes.xib
+cCompileXIB /Users/adam/Documents/xcode/Recipes/Ingredients.xib
+cCompileXIB /Users/adam/Documents/xcode/Recipes/AddRecipe.xib
+cCompileXIB /Users/adam/Documents/xcode/Recipes/AddIngredient.xib
+cCpResource build/Debug-iphonesimulator/Recipes.app/recipes.db recipes.db
+cCpResource build/Debug-iphonesimulator/Recipes.app/recipes.sql recipes.sql
+cProcessPCH /var/folders/T3/T3UgSv8GEbm521qJWwgMxE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-cdyudtjddqbpixcmrlgnjoygfgko/Recipes_Prefix.pch.gch Recipes_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/main.o /Users/adam/Documents/xcode/Recipes/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/RecipesAppDelegate.o /Users/adam/Documents/xcode/Recipes/Classes/RecipesAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/RecipesViewController.o /Users/adam/Documents/xcode/Recipes/Classes/RecipesViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/IngredientsViewController.o /Users/adam/Documents/xcode/Recipes/Classes/IngredientsViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/AddRecipeViewController.o /Users/adam/Documents/xcode/Recipes/Classes/AddRecipeViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/AddIngredientViewController.o /Users/adam/Documents/xcode/Recipes/Classes/AddIngredientViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/SQLiteAccess.o /Users/adam/Documents/xcode/Recipes/Classes/SQLiteAccess.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator/Recipes.app/Recipes normal i386
+cGenerateDSYMFile /Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator/Recipes.app.dSYM /Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator/Recipes.app/Recipes
+cTouch /Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator/Recipes.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk
+c000000004AF0C10000000000000000EE
+t1257292032
+s238
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004ABDC853000000000026EE30
+t1253951571
+s2551344
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004ABDC952000000000027E880
+t1253951826
+s2615424
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004ABDC93F0000000000001355
+t1253951807
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004ABDEE1D0000000000000788
+t1253961245
+s1928
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004ABDEEE200000000016721E0
+t1253961442
+s23536096
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/usr/include/sqlite3.h
+c000000004ABDC6A0000000000003D86F
+t1253951136
+s252015
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk
+c000000004B69B45C00000000000000EE
+t1265218652
+s238
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004B2B4CC3000000000026EE30
+t1261128899
+s2551344
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004B2B4DC8000000000027E880
+t1261129160
+s2615424
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004B2B4DAE0000000000001355
+t1261129134
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004B2B61620000000000000788
+t1261134178
+s1928
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004B2B62B500000000016721E0
+t1261134517
+s23536096
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/include/sqlite3.h
+c000000004B2B49B3000000000003D86F
+t1261128115
+s252015
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/lib/libsqlite3.dylib
+c000000004B2B49D500000000000C4CF0
+t1261128149
+s806128
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk
+c000000004BCDE9050000000000000110
+t1271785733
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BA03AB3000000000026F020
+t1268791987
+s2551840
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004B9F1DE40000000000289C20
+t1268719076
+s2661408
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004B9F1DD60000000000001355
+t1268719062
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004BA6CAEC000000000000098F
+t1269222124
+s2447
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004BA6CB31000000000214E400
+t1269222193
+s34923520
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/sqlite3.h
+c000000004B9F1A8B000000000004187F
+t1268718219
+s268415
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/lib/libsqlite3.dylib
+c000000004B9F1ABC00000000000E1D70
+t1268718268
+s925040
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk
+c000000004C6C30170000000000000110
+t1282158615
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004C5A4DB60000000000295900
+t1280986550
+s2709760
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004C5A4DB0000000000029D580
+t1280986544
+s2741632
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C5A4DA10000000000001466
+t1280986529
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C6241ED00000000000009CD
+t1281507821
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C6242840000000001E228C0
+t1281507972
+s31598784
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/sqlite3.h
+c000000004C5A494E000000000004252F
+t1280985422
+s271663
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/lib/libsqlite3.dylib
+c000000004C5A495F00000000000836C0
+t1280985439
+s538304
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/sqlite3.h
+c000000004CC109C90000000000042B54
+t1287719369
+s273236
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/lib/libsqlite3.dylib
+c000000004CC109D90000000000092C20
+t1287719385
+s601120
+
+N/Users/adam/Desktop/Recipes/AddIngredient.xib
+c000000004BCBAA7A00000000000072B0
+t1271638650
+s29360
+
+N/Users/adam/Desktop/Recipes/AddRecipe.xib
+c000000004BCCB3A000000000000083FD
+t1271706528
+s33789
+
+N/Users/adam/Desktop/Recipes/Classes/AddIngredientViewController.h
+c000000004BCCD13400000000000002D1
+t1271714100
+s721
+i<UIKit/UIKit.h>
+
+N/Users/adam/Desktop/Recipes/Classes/AddIngredientViewController.m
+c000000004BF07F890000000000000AE5
+t1274052489
+s2789
+i"RecipesViewController.h"
+i"IngredientsViewController.h"
+i"AddIngredientViewController.h"
+
+N/Users/adam/Desktop/Recipes/Classes/AddRecipeViewController.h
+c000000004BCCCA7600000000000001F7
+t1271712374
+s503
+i<UIKit/UIKit.h>
+
+N/Users/adam/Desktop/Recipes/Classes/AddRecipeViewController.m
+c000000004BCCD4050000000000000A0A
+t1271714821
+s2570
+i"AddRecipeViewController.h"
+i"RecipesViewController.h"
+
+N/Users/adam/Desktop/Recipes/Classes/IngredientsViewController.h
+c000000004BF04DDA0000000000000210
+t1274039770
+s528
+i<UIKit/UIKit.h>
+
+N/Users/adam/Desktop/Recipes/Classes/IngredientsViewController.m
+c000000004BF07B8100000000000013D6
+t1274051457
+s5078
+i"IngredientsViewController.h"
+i"RecipesViewController.h"
+
+N/Users/adam/Desktop/Recipes/Classes/RecipesAppDelegate.h
+c000000004BF056710000000000000562
+t1274041969
+s1378
+i<UIKit/UIKit.h>
+
+N/Users/adam/Desktop/Recipes/Classes/RecipesAppDelegate.m
+c000000004BF3097D0000000000001250
+t1274218877
+s4688
+i"RecipesAppDelegate.h"
+i"RecipesViewController.h"
+i"IngredientsViewController.h"
+i"AddIngredientViewController.h"
+i"SQLiteAccess.h"
+
+N/Users/adam/Desktop/Recipes/Classes/RecipesViewController.h
+c000000004BF0566C000000000000037D
+t1274041964
+s893
+i<UIKit/UIKit.h>
+
+N/Users/adam/Desktop/Recipes/Classes/RecipesViewController.m
+c000000004BF0564900000000000010EB
+t1274041929
+s4331
+i"RecipesViewController.h"
+i"AddRecipeViewController.h"
+i"RecipesAppDelegate.h"
+
+N/Users/adam/Desktop/Recipes/Classes/SQLiteAccess.h
+c0000000049A08976000000000000021B
+t1235257718
+s539
+i<UIKit/UIKit.h>
+
+N/Users/adam/Desktop/Recipes/Classes/SQLiteAccess.m
+c0000000049A089760000000000001662
+t1235257718
+s5730
+i"SQLiteAccess.h"
+i<sqlite3.h>
+
+N/Users/adam/Desktop/Recipes/Ingredients.xib
+c000000004BCBA4B500000000000061B3
+t1271637173
+s25011
+
+N/Users/adam/Desktop/Recipes/MainWindow.xib
+c000000004BCBA36C0000000000008021
+t1271636844
+s32801
+
+N/Users/adam/Desktop/Recipes/Recipes.xib
+c000000004BCB9D1F000000000000610D
+t1271635231
+s24845
+
+N/Users/adam/Desktop/Recipes/Recipes_Prefix.pch
+c000000004BC9CF5100000000000000B7
+t1271517009
+s183
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/adam/Desktop/Recipes/build/Debug-iphonesimulator/Recipes.app
+t1274218879
+s442
+
+N/Users/adam/Desktop/Recipes/build/Debug-iphonesimulator/Recipes.app.dSYM
+t1274218879
+s102
+
+N/Users/adam/Desktop/Recipes/build/Debug-iphonesimulator/Recipes.app/AddIngredient.nib
+t1274026203
+s3415
+
+N/Users/adam/Desktop/Recipes/build/Debug-iphonesimulator/Recipes.app/AddRecipe.nib
+t1274026203
+s4131
+
+N/Users/adam/Desktop/Recipes/build/Debug-iphonesimulator/Recipes.app/Info.plist
+t1274026202
+s593
+
+N/Users/adam/Desktop/Recipes/build/Debug-iphonesimulator/Recipes.app/Ingredients.nib
+t1274026203
+s1619
+
+N/Users/adam/Desktop/Recipes/build/Debug-iphonesimulator/Recipes.app/MainWindow.nib
+t1274026202
+s2982
+
+N/Users/adam/Desktop/Recipes/build/Debug-iphonesimulator/Recipes.app/PkgInfo
+t1274026202
+s8
+
+N/Users/adam/Desktop/Recipes/build/Debug-iphonesimulator/Recipes.app/Recipes
+t1274218879
+s56484
+
+N/Users/adam/Desktop/Recipes/build/Debug-iphonesimulator/Recipes.app/Recipes.nib
+t1274026202
+s1903
+
+N/Users/adam/Desktop/Recipes/build/Debug-iphonesimulator/Recipes.app/recipes.db
+t1274026607
+s4096
+
+N/Users/adam/Desktop/Recipes/build/Debug-iphonesimulator/Recipes.app/recipes.sql
+t1274025213
+s1891
+
+N/Users/adam/Desktop/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/AddIngredientViewController.o
+t1274218851
+s39864
+
+N/Users/adam/Desktop/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/AddRecipeViewController.o
+t1274218851
+s37004
+
+N/Users/adam/Desktop/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/IngredientsViewController.o
+t1274218851
+s45864
+
+N/Users/adam/Desktop/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/Recipes.LinkFileList
+c000000004BF30962000000000000036F
+t1274218850
+s879
+
+N/Users/adam/Desktop/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/RecipesAppDelegate.o
+t1274218879
+s51864
+
+N/Users/adam/Desktop/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/RecipesViewController.o
+t1274218851
+s49496
+
+N/Users/adam/Desktop/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/SQLiteAccess.o
+t1274218851
+s19460
+
+N/Users/adam/Desktop/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/main.o
+t1274218851
+s5928
+
+N/Users/adam/Desktop/Recipes/main.m
+c000000004BC9CF510000000000000164
+t1271517009
+s356
+i<UIKit/UIKit.h>
+
+N/Users/adam/Desktop/Recipes/recipes.db
+c000000004BF01A670000000000001000
+t1274026599
+s4096
+
+N/Users/adam/Desktop/Recipes/recipes.sql
+c0000000049A089760000000000000763
+t1235257718
+s1891
+
+N/Users/adam/Documents/xcode/Recipes/../../../Downloads/v-bdiphone-v-05-code/Recipes/Classes/SQLiteAccess.m
+c0000000049A089760000000000001662
+t1235257718
+s5730
+i"SQLiteAccess.h"
+i<sqlite3.h>
+
+N/Users/adam/Documents/xcode/Recipes/AddIngredient.xib
+c000000004BCBAA7A00000000000072B0
+t1271638650
+s29360
+
+N/Users/adam/Documents/xcode/Recipes/AddRecipe.xib
+c000000004BCCB3A000000000000083FD
+t1271706528
+s33789
+
+N/Users/adam/Documents/xcode/Recipes/Classes/AddIngredientViewController.h
+c000000004BCCD13400000000000002D1
+t1271714100
+s721
+i<UIKit/UIKit.h>
+
+N/Users/adam/Documents/xcode/Recipes/Classes/AddIngredientViewController.m
+c000000004BF07F890000000000000AE5
+t1274052489
+s2789
+i"RecipesViewController.h"
+i"IngredientsViewController.h"
+i"AddIngredientViewController.h"
+
+N/Users/adam/Documents/xcode/Recipes/Classes/AddRecipeViewController.h
+c000000004BCCCA7600000000000001F7
+t1271712374
+s503
+i<UIKit/UIKit.h>
+
+N/Users/adam/Documents/xcode/Recipes/Classes/AddRecipeViewController.m
+c000000004BCCD4050000000000000A0A
+t1271714821
+s2570
+i"AddRecipeViewController.h"
+i"RecipesViewController.h"
+
+N/Users/adam/Documents/xcode/Recipes/Classes/AddRecipesViewController.h
+c000000004BCB2F1400000000000001E1
+t1271607060
+s481
+i<UIKit/UIKit.h>
+
+N/Users/adam/Documents/xcode/Recipes/Classes/AddRecipesViewController.m
+c000000004BCB2F430000000000000864
+t1271607107
+s2148
+i"AddRecipesViewController.h"
+i"RecipesViewController.h"
+
+N/Users/adam/Documents/xcode/Recipes/Classes/IngredientsViewController.h
+c000000004BF04DDA0000000000000210
+t1274039770
+s528
+i<UIKit/UIKit.h>
+
+N/Users/adam/Documents/xcode/Recipes/Classes/IngredientsViewController.m
+c000000004BF07B8100000000000013D6
+t1274051457
+s5078
+i"IngredientsViewController.h"
+i"RecipesViewController.h"
+
+N/Users/adam/Documents/xcode/Recipes/Classes/RecipesAppDelegate.h
+c000000004BF056710000000000000562
+t1274041969
+s1378
+i<UIKit/UIKit.h>
+
+N/Users/adam/Documents/xcode/Recipes/Classes/RecipesAppDelegate.m
+c000000004BF3097D0000000000001250
+t1274218877
+s4688
+i"RecipesAppDelegate.h"
+i"RecipesViewController.h"
+i"IngredientsViewController.h"
+i"AddIngredientViewController.h"
+i"SQLiteAccess.h"
+
+N/Users/adam/Documents/xcode/Recipes/Classes/RecipesViewController.h
+c000000004BF0566C000000000000037D
+t1274041964
+s893
+i<UIKit/UIKit.h>
+
+N/Users/adam/Documents/xcode/Recipes/Classes/RecipesViewController.m
+c000000004BF0564900000000000010EB
+t1274041929
+s4331
+i"RecipesViewController.h"
+i"AddRecipeViewController.h"
+i"RecipesAppDelegate.h"
+
+N/Users/adam/Documents/xcode/Recipes/Classes/SQLiteAccess.h
+c0000000049A08976000000000000021B
+t1235257718
+s539
+i<UIKit/UIKit.h>
+
+N/Users/adam/Documents/xcode/Recipes/Classes/SQLiteAccess.m
+c0000000049A089760000000000001662
+t1235257718
+s5730
+i"SQLiteAccess.h"
+i<sqlite3.h>
+
+N/Users/adam/Documents/xcode/Recipes/Ingredients.xib
+c000000004BCBA4B500000000000061B3
+t1271637173
+s25011
+
+N/Users/adam/Documents/xcode/Recipes/MainWindow.xib
+c000000004BCBA36C0000000000008021
+t1271636844
+s32801
+
+N/Users/adam/Documents/xcode/Recipes/Recipes.xib
+c000000004BCB9D1F000000000000610D
+t1271635231
+s24845
+
+N/Users/adam/Documents/xcode/Recipes/RecipesViewController.xib
+c000000004BCB00D40000000000004589
+t1271595220
+s17801
+
+N/Users/adam/Documents/xcode/Recipes/Recipes_Prefix.pch
+c000000004BC9CF5100000000000000B7
+t1271517009
+s183
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator/Recipes.app
+t1297123892
+s442
+
+N/Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator/Recipes.app.dSYM
+t1297123892
+s102
+
+N/Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator/Recipes.app/AddIngredient.nib
+t1297123891
+s2228
+
+N/Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator/Recipes.app/AddRecipe.nib
+t1297123890
+s2684
+
+N/Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator/Recipes.app/Info.plist
+t1297123889
+s591
+
+N/Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator/Recipes.app/Ingredients.nib
+t1297123890
+s1171
+
+N/Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator/Recipes.app/MainWindow.nib
+t1297123890
+s2034
+
+N/Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator/Recipes.app/PkgInfo
+t1297123889
+s8
+
+N/Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator/Recipes.app/Recipes
+t1297123892
+s60180
+
+N/Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator/Recipes.app/Recipes.nib
+t1297123890
+s1430
+
+N/Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator/Recipes.app/RecipesViewController.nib
+t1271595225
+s1560
+
+N/Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator/Recipes.app/recipes.db
+t1297123890
+s4096
+
+N/Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator/Recipes.app/recipes.sql
+t1297123890
+s1891
+
+N/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/AddIngredientViewController.o
+t1297123892
+s50324
+
+N/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/AddRecipeViewController.o
+t1297123892
+s46904
+
+N/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/AddRecipesViewController.o
+t1271633674
+s34632
+
+N/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/IngredientsViewController.o
+t1297123892
+s57580
+
+N/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/Recipes.LinkFileList
+c000000004D4EE9B600000000000003A7
+t1297017270
+s935
+
+N/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/RecipesAppDelegate.o
+t1297123892
+s65388
+
+N/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/RecipesViewController.o
+t1297123892
+s62516
+
+N/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/SQLiteAccess.o
+t1297123892
+s21768
+
+N/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/main.o
+t1297123892
+s6296
+
+N/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/StaticAnalyzer/normal/i386/AddIngredientViewController.plist
+t1271716102
+s275
+
+N/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/StaticAnalyzer/normal/i386/AddRecipeViewController.plist
+t1271716102
+s275
+
+N/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/StaticAnalyzer/normal/i386/IngredientsViewController.plist
+t1271716102
+s10329
+
+N/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/StaticAnalyzer/normal/i386/RecipesAppDelegate.plist
+t1271716102
+s275
+
+N/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/StaticAnalyzer/normal/i386/RecipesViewController.plist
+t1271716102
+s275
+
+N/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/StaticAnalyzer/normal/i386/main.plist
+t1271716102
+s275
+
+N/Users/adam/Documents/xcode/Recipes/main.m
+c000000004BC9CF510000000000000164
+t1271517009
+s356
+i<UIKit/UIKit.h>
+
+N/Users/adam/Documents/xcode/Recipes/recipes.db
+c000000004BF01A670000000000001000
+t1274026599
+s4096
+
+N/Users/adam/Documents/xcode/Recipes/recipes.sql
+c0000000049A089760000000000000763
+t1235257718
+s1891
+
+N/Users/adam/Downloads/v-bdiphone-v-05-code/Recipes/Classes/SQLiteAccess.h
+c0000000049A08976000000000000021B
+t1235257718
+s539
+i<UIKit/UIKit.h>
+
+N/var/folders/3r/3riDG++XFXuIKtHbtWYp6k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-anslbqwnymzxxhfdaqbgohyyrcsq/Recipes_Prefix.pch.gch
+t1274025749
+s13026768
+
+N/var/folders/3r/3riDG++XFXuIKtHbtWYp6k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-bqwohajiadulgehfriokfevpumji/Recipes_Prefix.pch.gch
+t1274218851
+s13026768
+
+N/var/folders/3r/3riDG++XFXuIKtHbtWYp6k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-dnvgcilhkhdkthbbtqprfrtzrbec/Recipes_Prefix.pch.gch
+t1271517094
+s13034960
+
+N/var/folders/3r/3riDG++XFXuIKtHbtWYp6k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-dovphtylajrwojetvdiojsdrahqj/Recipes_Prefix.pch.gch
+t1274024468
+s13026768
+
+N/var/folders/3r/3riDG++XFXuIKtHbtWYp6k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-erqhebbedpgqwecxtkhskznunczo/Recipes_Prefix.pch.gch
+t1274024434
+s13805456
+
+N/var/folders/3r/3riDG++XFXuIKtHbtWYp6k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-flrpyioayllgibahqodrovelggig/Recipes_Prefix.pch.pth
+t1271716102
+s1729092
+
+N/var/folders/T3/T3UgSv8GEbm521qJWwgMxE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-cdyudtjddqbpixcmrlgnjoygfgko/Recipes_Prefix.pch.gch
+t1297123892
+s15453392
+
+N/var/folders/T3/T3UgSv8GEbm521qJWwgMxE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-dtxxfzqszrriymamwajlrnrhxxqi/Recipes_Prefix.pch.gch
+t2
+s0
+
+NRecipes-Info.plist
+c000000004BC9CF51000000000000038D
+t1271517009
+s909
+
+CAnalyze /Users/adam/Documents/xcode/Recipes/Classes/AddIngredientViewController.m
+s293408902.344053
+e293408902.389476
+r1
+xAnalyze
+x/Users/adam/Documents/xcode/Recipes/Classes/AddIngredientViewController.m
+lSLF07#2@81"Analyze /Users/adam/Documents/xcode/Recipes/Classes/AddIngredientViewController.m293408902#293408902#0(0"0(0#0#73"/Users/adam/Documents/xcode/Recipes/Classes/AddIngredientViewController.m4300885448#1889"    cd /Users/adam/Documents/xcode/Recipes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-generated-files.hmap -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-own-target-headers.hmap -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-all-target-headers.hmap -iquote /Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-project-headers.hmap -F/Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator -I/Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator/include -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources/i386 -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources -include /var/folders/3r/3riDG++XFXuIKtHbtWYp6k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-flrpyioayllgibahqodrovelggig/Recipes_Prefix.pch --analyze /Users/adam/Documents/xcode/Recipes/Classes/AddIngredientViewController.m -o /Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/StaticAnalyzer/normal/i386/AddIngredientViewController.plist0#
+
+CAnalyze /Users/adam/Documents/xcode/Recipes/Classes/AddRecipeViewController.m
+s293408902.322052
+e293408902.365904
+r1
+xAnalyze
+x/Users/adam/Documents/xcode/Recipes/Classes/AddRecipeViewController.m
+lSLF07#2@77"Analyze /Users/adam/Documents/xcode/Recipes/Classes/AddRecipeViewController.m293408902#293408902#0(0"0(0#0#69"/Users/adam/Documents/xcode/Recipes/Classes/AddRecipeViewController.m4300885448#1881"    cd /Users/adam/Documents/xcode/Recipes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-generated-files.hmap -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-own-target-headers.hmap -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-all-target-headers.hmap -iquote /Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-project-headers.hmap -F/Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator -I/Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator/include -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources/i386 -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources -include /var/folders/3r/3riDG++XFXuIKtHbtWYp6k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-flrpyioayllgibahqodrovelggig/Recipes_Prefix.pch --analyze /Users/adam/Documents/xcode/Recipes/Classes/AddRecipeViewController.m -o /Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/StaticAnalyzer/normal/i386/AddRecipeViewController.plist0#
+
+CAnalyze /Users/adam/Documents/xcode/Recipes/Classes/IngredientsViewController.m
+s293408902.294222
+e293408902.343867
+r1
+xAnalyze
+x/Users/adam/Documents/xcode/Recipes/Classes/IngredientsViewController.m
+o/Users/adam/Documents/xcode/Recipes/Classes/IngredientsViewController.m:73:3:{73:3-73:63}: warning: method '-displayAddNewIngredientScreen:' not found (return type defaults to 'id')
+o                 [recipesController displayAddNewIngredientScreen:self.title];
+o                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+o/Users/adam/Documents/xcode/Recipes/Classes/IngredientsViewController.m:87:8: warning: 'hidesAccessoryWhenEditing' is deprecated [-Wdeprecated-declarations]
+o                 cell.hidesAccessoryWhenEditing = NO;
+o                      ^
+o/Users/adam/Documents/xcode/Recipes/Classes/IngredientsViewController.m:80:10: warning: Potential leak of an object allocated on line 80 and stored into 'cell'
+o                 cell = [[UITableViewCell alloc] initWithFrame:CGRectZero reuseIdentifier:nil];
+o                        ^
+o3 diagnostics generated.
+lSLF07#2@79"Analyze /Users/adam/Documents/xcode/Recipes/Classes/IngredientsViewController.m293408902#293408902#0(881"/Users/adam/Documents/xcode/Recipes/Classes/IngredientsViewController.m:73:3:{73:3-73:63}: warning: method '-displayAddNewIngredientScreen:' not found (return type defaults to 'id')                 [recipesController displayAddNewIngredientScreen:self.title];                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~/Users/adam/Documents/xcode/Recipes/Classes/IngredientsViewController.m:87:8: warning: 'hidesAccessoryWhenEditing' is deprecated [-Wdeprecated-declarations]                 cell.hidesAccessoryWhenEditing = NO;                      ^/Users/adam/Documents/xcode/Recipes/Classes/IngredientsViewController.m:80:10: warning: Potential leak of an object allocated on line 80 and stored into 'cell'                 cell = [[UITableViewCell alloc] initWithFrame:CGRectZero reuseIdentifier:nil];                        ^3 diagnostics generated.1(0@71"Potential leak of an object allocated on line 80 and stored into 'cell'293408902#18446744073709551615#0#9(17@0"293408902#18446744073709551615#0#0(6@71"/Users/adam/Documents/xcode/Recipes/Classes/IngredientsViewController.m293408820#0#0#0#0#0"0(6@71"/Users/adam/Documents/xcode/Recipes/Classes/IngredientsViewController.m293408820#0#0#0#0#1(3@6@71"/Users/adam/Documents/xcode/Recipes/Classes/IngredientsViewController.m293408820#78#2#78#2#6@71"/Users/adam/Documents/xcode/Recipes/Classes/IngredientsViewController.m293408820#79#2#79#2#17@0"293408902#18446744073709551615#0#0(6@71"/Users/adam/Documents/xcode/Recipes/Classes/IngredientsViewController.m293408820#0#0#0#0#0"0(6@71"/Users/adam/Documents/xcode/Recipes/Classes/IngredientsViewController.m293408820#0#0#0#0#1(3@6@71"/Users/adam/Documents/xcode/Recipes/Classes/IngredientsViewController.m293408820#79#2#79#2#6@71"/Users/adam/Documents/xcode/Recipes/Classes/IngredientsViewController.m293408820#80#3#80#3#17@0"293408902#18446744073709551615#0#0(6@71"/Users/adam/Documents/xcode/Recipes/Classes/IngredientsViewController.m293408820#0#0#0#0#0"0(6@71"/Users/adam/Documents/xcode/Recipes/Classes/IngredientsViewController.m293408820#0#0#0#0#1(3@6@71"/Users/adam/Documents/xcode/Recipes/Classes/IngredientsViewController.m293408820#80#3#80#3#6@71"/Users/adam/Documents/xcode/Recipes/Classes/IngredientsViewController.m293408820#80#10#80#79#21@78"Method returns an Objective-C object with a +1 retain count (owning reference)293408902#18446744073709551615#0#0(6@71"/Users/adam/Documents/xcode/Recipes/Classes/IngredientsViewController.m293408820#80#10#0#0#0"1(6@71"/Users/adam/Documents/xcode/Recipes/Classes/IngredientsViewController.m293408820#80#10#80#79#78"Method returns an Objective-C object with a +1 retain count (owning reference)17@0"293408902#18446744073709551615#0#0(6@71"/Users/adam/Documents/xcode/Recipes/Classes/IngredientsViewController.m293408820#0#0#0#0#0"0(6@71"/Users/adam/Documents/xcode/Recipes/Classes/IngredientsViewController.m293408820#0#0#0#0#1(3@6@71"/Users/adam/Documents/xcode/Recipes/Classes/IngredientsViewController.m293408820#80#10#80#79#6@71"/Users/adam/Documents/xcode/Recipes/Classes/IngredientsViewController.m293408820#82#2#82#2#17@0"293408902#18446744073709551615#0#0(6@71"/Users/adam/Documents/xcode/Recipes/Classes/IngredientsViewController.m293408820#0#0#0#0#0"0(6@71"/Users/adam/Documents/xcode/Recipes/Classes/IngredientsViewController.m293408820#0#0#0#0#1(3@6@71"/Users/adam/Documents/xcode/Recipes/Classes/IngredientsViewController.m293408820#82#2#82#2#6@71"/Users/adam/Documents/xcode/Recipes/Classes/IngredientsViewController.m293408820#83#3#83#3#17@0"293408902#18446744073709551615#0#0(6@71"/Users/adam/Documents/xcode/Recipes/Classes/IngredientsViewController.m293408820#0#0#0#0#0"0(6@71"/Users/adam/Documents/xcode/Recipes/Classes/IngredientsViewController.m293408820#0#0#0#0#1(3@6@71"/Users/adam/Documents/xcode/Recipes/Classes/IngredientsViewController.m293408820#83#3#83#3#6@71"/Users/adam/Documents/xcode/Recipes/Classes/IngredientsViewController.m293408820#90#2#90#7#21@92"Object returned to caller as an owning reference (single retain count transferred to caller)293408902#18446744073709551615#0#0(6@71"/Users/adam/Documents/xcode/Recipes/Classes/IngredientsViewController.m293408820#90#2#0#0#0"2(6@71"/Users/adam/Documents/xcode/Recipes/Classes/IngredientsViewController.m293408820#90#2#90#12#6@71"/Users/adam/Documents/xcode/Recipes/Classes/IngredientsViewController.m293408820#90#9#90#12#92"Object returned to caller as an owning reference (single retain count transferred to caller)21@297"Object allocated on line 80 and stored into 'cell' is returned from a method whose name ('tableView:cellForRowAtIndexPath:') does not contain 'copy' or otherwise starts with 'new' or 'alloc'.  This violates the naming convention rules given in the Memory Management Guide for Cocoa (object leaked)293408902#18446744073709551615#0#0(6@71"/Users/adam/Documents/xcode/Recipes/Classes/IngredientsViewController.m293408820#90#2#0#0#0"1(6@71"/Users/adam/Documents/xcode/Recipes/Classes/IngredientsViewController.m293408820#90#2#90#7#297"Object allocated on line 80 and stored into 'cell' is returned from a method whose name ('tableView:cellForRowAtIndexPath:') does not contain 'copy' or otherwise starts with 'new' or 'alloc'.  This violates the naming convention rules given in the Memory Management Guide for Cocoa (object leaked)6@71"/Users/adam/Documents/xcode/Recipes/Classes/IngredientsViewController.m293408820#90#2#0#0#36"Memory (Core Foundation/Objective-C)0(23"Leak of returned object0#0#71"/Users/adam/Documents/xcode/Recipes/Classes/IngredientsViewController.m4300885448#1885"    cd /Users/adam/Documents/xcode/Recipes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-generated-files.hmap -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-own-target-headers.hmap -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-all-target-headers.hmap -iquote /Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-project-headers.hmap -F/Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator -I/Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator/include -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources/i386 -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources -include /var/folders/3r/3riDG++XFXuIKtHbtWYp6k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-flrpyioayllgibahqodrovelggig/Recipes_Prefix.pch --analyze /Users/adam/Documents/xcode/Recipes/Classes/IngredientsViewController.m -o /Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/StaticAnalyzer/normal/i386/IngredientsViewController.plist0#
+
+CAnalyze /Users/adam/Documents/xcode/Recipes/Classes/RecipesAppDelegate.m
+s293408902.181498
+e293408902.276091
+r1
+xAnalyze
+x/Users/adam/Documents/xcode/Recipes/Classes/RecipesAppDelegate.m
+lSLF07#2@72"Analyze /Users/adam/Documents/xcode/Recipes/Classes/RecipesAppDelegate.m293408902#293408902#0(0"0(0#0#64"/Users/adam/Documents/xcode/Recipes/Classes/RecipesAppDelegate.m4300885448#1871"    cd /Users/adam/Documents/xcode/Recipes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-generated-files.hmap -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-own-target-headers.hmap -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-all-target-headers.hmap -iquote /Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-project-headers.hmap -F/Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator -I/Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator/include -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources/i386 -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources -include /var/folders/3r/3riDG++XFXuIKtHbtWYp6k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-flrpyioayllgibahqodrovelggig/Recipes_Prefix.pch --analyze /Users/adam/Documents/xcode/Recipes/Classes/RecipesAppDelegate.m -o /Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/StaticAnalyzer/normal/i386/RecipesAppDelegate.plist0#
+
+CAnalyze /Users/adam/Documents/xcode/Recipes/Classes/RecipesViewController.m
+s293408902.276191
+e293408902.321954
+r1
+xAnalyze
+x/Users/adam/Documents/xcode/Recipes/Classes/RecipesViewController.m
+lSLF07#2@75"Analyze /Users/adam/Documents/xcode/Recipes/Classes/RecipesViewController.m293408902#293408902#0(0"0(0#0#67"/Users/adam/Documents/xcode/Recipes/Classes/RecipesViewController.m4300885448#1877"    cd /Users/adam/Documents/xcode/Recipes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-generated-files.hmap -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-own-target-headers.hmap -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-all-target-headers.hmap -iquote /Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-project-headers.hmap -F/Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator -I/Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator/include -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources/i386 -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources -include /var/folders/3r/3riDG++XFXuIKtHbtWYp6k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-flrpyioayllgibahqodrovelggig/Recipes_Prefix.pch --analyze /Users/adam/Documents/xcode/Recipes/Classes/RecipesViewController.m -o /Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/StaticAnalyzer/normal/i386/RecipesViewController.plist0#
+
+CAnalyze /Users/adam/Documents/xcode/Recipes/main.m
+s293408902.179567
+e293408902.294116
+r1
+xAnalyze
+x/Users/adam/Documents/xcode/Recipes/main.m
+lSLF07#2@50"Analyze /Users/adam/Documents/xcode/Recipes/main.m293408902#293408902#0(0"0(0#0#42"/Users/adam/Documents/xcode/Recipes/main.m4300885448#1835"    cd /Users/adam/Documents/xcode/Recipes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-generated-files.hmap -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-own-target-headers.hmap -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-all-target-headers.hmap -iquote /Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-project-headers.hmap -F/Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator -I/Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator/include -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources/i386 -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources -include /var/folders/3r/3riDG++XFXuIKtHbtWYp6k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-flrpyioayllgibahqodrovelggig/Recipes_Prefix.pch --analyze /Users/adam/Documents/xcode/Recipes/main.m -o /Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/StaticAnalyzer/normal/i386/main.plist0#
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies318816739#318816739#0(0"0(0#1#0"8634729472#0"0#
+
+CCompileC build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/AddIngredientViewController.o /Users/adam/Desktop/Recipes/Classes/AddIngredientViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s295911651.733011
+e295911651.946098
+r1
+xCompileC
+xbuild/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/AddIngredientViewController.o
+x/Users/adam/Desktop/Recipes/Classes/AddIngredientViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/adam/Desktop/Recipes/Classes/AddIngredientViewController.m295911651#295911651#0(0"0(0#0#65"/Users/adam/Desktop/Recipes/Classes/AddIngredientViewController.m4300911832#1792"    cd /Users/adam/Desktop/Recipes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/adam/Desktop/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-generated-files.hmap -I/Users/adam/Desktop/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-own-target-headers.hmap -I/Users/adam/Desktop/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-all-target-headers.hmap -iquote /Users/adam/Desktop/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-project-headers.hmap -F/Users/adam/Desktop/Recipes/build/Debug-iphonesimulator -I/Users/adam/Desktop/Recipes/build/Debug-iphonesimulator/include -I/Users/adam/Desktop/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources/i386 -I/Users/adam/Desktop/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources -include /var/folders/3r/3riDG++XFXuIKtHbtWYp6k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-bqwohajiadulgehfriokfevpumji/Recipes_Prefix.pch -c /Users/adam/Desktop/Recipes/Classes/AddIngredientViewController.m -o /Users/adam/Desktop/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/AddIngredientViewController.o0#
+
+CCompileC build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/AddIngredientViewController.o /Users/adam/Documents/xcode/Recipes/Classes/AddIngredientViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318816692.413612
+e318816692.549266
+r1
+xCompileC
+xbuild/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/AddIngredientViewController.o
+x/Users/adam/Documents/xcode/Recipes/Classes/AddIngredientViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/adam/Documents/xcode/Recipes/Classes/AddIngredientViewController.m318816692#318816692#0(0"0(0#0#73"/Users/adam/Documents/xcode/Recipes/Classes/AddIngredientViewController.m8634650112#1935"    cd /Users/adam/Documents/xcode/Recipes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-generated-files.hmap -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-own-target-headers.hmap -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-all-target-headers.hmap -iquote /Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-project-headers.hmap -F/Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator -I/Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator/include -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources/i386 -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources -include /var/folders/T3/T3UgSv8GEbm521qJWwgMxE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-cdyudtjddqbpixcmrlgnjoygfgko/Recipes_Prefix.pch -c /Users/adam/Documents/xcode/Recipes/Classes/AddIngredientViewController.m -o /Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/AddIngredientViewController.o0#
+
+CCompileC build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/AddRecipeViewController.o /Users/adam/Desktop/Recipes/Classes/AddRecipeViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s295911651.702625
+e295911651.835224
+r1
+xCompileC
+xbuild/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/AddRecipeViewController.o
+x/Users/adam/Desktop/Recipes/Classes/AddRecipeViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/adam/Desktop/Recipes/Classes/AddRecipeViewController.m295911651#295911651#0(0"0(0#0#61"/Users/adam/Desktop/Recipes/Classes/AddRecipeViewController.m4300911832#1784"    cd /Users/adam/Desktop/Recipes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/adam/Desktop/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-generated-files.hmap -I/Users/adam/Desktop/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-own-target-headers.hmap -I/Users/adam/Desktop/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-all-target-headers.hmap -iquote /Users/adam/Desktop/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-project-headers.hmap -F/Users/adam/Desktop/Recipes/build/Debug-iphonesimulator -I/Users/adam/Desktop/Recipes/build/Debug-iphonesimulator/include -I/Users/adam/Desktop/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources/i386 -I/Users/adam/Desktop/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources -include /var/folders/3r/3riDG++XFXuIKtHbtWYp6k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-bqwohajiadulgehfriokfevpumji/Recipes_Prefix.pch -c /Users/adam/Desktop/Recipes/Classes/AddRecipeViewController.m -o /Users/adam/Desktop/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/AddRecipeViewController.o0#
+
+CCompileC build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/AddRecipeViewController.o /Users/adam/Documents/xcode/Recipes/Classes/AddRecipeViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318816692.343509
+e318816692.463051
+r1
+xCompileC
+xbuild/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/AddRecipeViewController.o
+x/Users/adam/Documents/xcode/Recipes/Classes/AddRecipeViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/adam/Documents/xcode/Recipes/Classes/AddRecipeViewController.m318816692#318816692#0(0"0(0#0#69"/Users/adam/Documents/xcode/Recipes/Classes/AddRecipeViewController.m8635147456#1927"    cd /Users/adam/Documents/xcode/Recipes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-generated-files.hmap -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-own-target-headers.hmap -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-all-target-headers.hmap -iquote /Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-project-headers.hmap -F/Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator -I/Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator/include -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources/i386 -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources -include /var/folders/T3/T3UgSv8GEbm521qJWwgMxE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-cdyudtjddqbpixcmrlgnjoygfgko/Recipes_Prefix.pch -c /Users/adam/Documents/xcode/Recipes/Classes/AddRecipeViewController.m -o /Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/AddRecipeViewController.o0#
+
+CCompileC build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/AddRecipesViewController.o /Users/adam/Documents/xcode/Recipes/Classes/AddRecipesViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s293326474.545997
+e293326474.699851
+r1
+xCompileC
+xbuild/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/AddRecipesViewController.o
+x/Users/adam/Documents/xcode/Recipes/Classes/AddRecipesViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/adam/Documents/xcode/Recipes/Classes/AddRecipesViewController.m293326474#293326474#0(0"0(0#0#70"/Users/adam/Documents/xcode/Recipes/Classes/AddRecipesViewController.m4300885448#1874"    cd /Users/adam/Documents/xcode/Recipes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-generated-files.hmap -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-own-target-headers.hmap -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-all-target-headers.hmap -iquote /Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-project-headers.hmap -F/Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator -I/Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator/include -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources/i386 -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources -include /var/folders/3r/3riDG++XFXuIKtHbtWYp6k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-dnvgcilhkhdkthbbtqprfrtzrbec/Recipes_Prefix.pch -c /Users/adam/Documents/xcode/Recipes/Classes/AddRecipesViewController.m -o /Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/AddRecipesViewController.o0#
+
+CCompileC build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/IngredientsViewController.o /Users/adam/Desktop/Recipes/Classes/IngredientsViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s295911651.552703
+e295911651.732889
+r1
+xCompileC
+xbuild/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/IngredientsViewController.o
+x/Users/adam/Desktop/Recipes/Classes/IngredientsViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/adam/Desktop/Recipes/Classes/IngredientsViewController.m: In function '-[IngredientsViewController tableView:cellForRowAtIndexPath:]':
+o/Users/adam/Desktop/Recipes/Classes/IngredientsViewController.m:88: warning: 'setHidesAccessoryWhenEditing:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:200)
+lSLF07#2@71"Compile /Users/adam/Desktop/Recipes/Classes/IngredientsViewController.m295911651#295911651#0(437"/Users/adam/Desktop/Recipes/Classes/IngredientsViewController.m: In function '-[IngredientsViewController tableView:cellForRowAtIndexPath:]':/Users/adam/Desktop/Recipes/Classes/IngredientsViewController.m:88: warning: 'setHidesAccessoryWhenEditing:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:200)1(22@217"'setHidesAccessoryWhenEditing:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:200)295911651#142#295#0(6@63"/Users/adam/Desktop/Recipes/Classes/IngredientsViewController.m295744257#88#0#88#0#33"'*' is deprecated (declared at *)0(0#0#63"/Users/adam/Desktop/Recipes/Classes/IngredientsViewController.m4300911832#1788"    cd /Users/adam/Desktop/Recipes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/adam/Desktop/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-generated-files.hmap -I/Users/adam/Desktop/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-own-target-headers.hmap -I/Users/adam/Desktop/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-all-target-headers.hmap -iquote /Users/adam/Desktop/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-project-headers.hmap -F/Users/adam/Desktop/Recipes/build/Debug-iphonesimulator -I/Users/adam/Desktop/Recipes/build/Debug-iphonesimulator/include -I/Users/adam/Desktop/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources/i386 -I/Users/adam/Desktop/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources -include /var/folders/3r/3riDG++XFXuIKtHbtWYp6k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-bqwohajiadulgehfriokfevpumji/Recipes_Prefix.pch -c /Users/adam/Desktop/Recipes/Classes/IngredientsViewController.m -o /Users/adam/Desktop/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/IngredientsViewController.o0#
+
+CCompileC build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/IngredientsViewController.o /Users/adam/Documents/xcode/Recipes/Classes/IngredientsViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318816692.271999
+e318816692.413499
+r1
+xCompileC
+xbuild/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/IngredientsViewController.o
+x/Users/adam/Documents/xcode/Recipes/Classes/IngredientsViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/adam/Documents/xcode/Recipes/Classes/IngredientsViewController.m: In function '-[IngredientsViewController tableView:cellForRowAtIndexPath:]':
+o/Users/adam/Documents/xcode/Recipes/Classes/IngredientsViewController.m:88: warning: 'setHidesAccessoryWhenEditing:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:211)
+lSLF07#2@79"Compile /Users/adam/Documents/xcode/Recipes/Classes/IngredientsViewController.m318816692#318816692#0(451"/Users/adam/Documents/xcode/Recipes/Classes/IngredientsViewController.m: In function '-[IngredientsViewController tableView:cellForRowAtIndexPath:]':/Users/adam/Documents/xcode/Recipes/Classes/IngredientsViewController.m:88: warning: 'setHidesAccessoryWhenEditing:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:211)1(22@215"'setHidesAccessoryWhenEditing:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:211)318816692#150#301#0(6@71"/Users/adam/Documents/xcode/Recipes/Classes/IngredientsViewController.m295744257#88#0#88#0#33"'*' is deprecated (declared at *)0(0#0#71"/Users/adam/Documents/xcode/Recipes/Classes/IngredientsViewController.m8635671008#1931"    cd /Users/adam/Documents/xcode/Recipes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-generated-files.hmap -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-own-target-headers.hmap -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-all-target-headers.hmap -iquote /Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-project-headers.hmap -F/Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator -I/Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator/include -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources/i386 -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources -include /var/folders/T3/T3UgSv8GEbm521qJWwgMxE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-cdyudtjddqbpixcmrlgnjoygfgko/Recipes_Prefix.pch -c /Users/adam/Documents/xcode/Recipes/Classes/IngredientsViewController.m -o /Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/IngredientsViewController.o0#
+
+CCompileC build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/RecipesAppDelegate.o /Users/adam/Desktop/Recipes/Classes/RecipesAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s295911679.066993
+e295911679.229058
+r1
+xCompileC
+xbuild/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/RecipesAppDelegate.o
+x/Users/adam/Desktop/Recipes/Classes/RecipesAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/adam/Desktop/Recipes/Classes/RecipesAppDelegate.m295911679#295911679#0(0"0(0#0#56"/Users/adam/Desktop/Recipes/Classes/RecipesAppDelegate.m4300911832#1774"    cd /Users/adam/Desktop/Recipes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/adam/Desktop/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-generated-files.hmap -I/Users/adam/Desktop/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-own-target-headers.hmap -I/Users/adam/Desktop/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-all-target-headers.hmap -iquote /Users/adam/Desktop/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-project-headers.hmap -F/Users/adam/Desktop/Recipes/build/Debug-iphonesimulator -I/Users/adam/Desktop/Recipes/build/Debug-iphonesimulator/include -I/Users/adam/Desktop/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources/i386 -I/Users/adam/Desktop/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources -include /var/folders/3r/3riDG++XFXuIKtHbtWYp6k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-bqwohajiadulgehfriokfevpumji/Recipes_Prefix.pch -c /Users/adam/Desktop/Recipes/Classes/RecipesAppDelegate.m -o /Users/adam/Desktop/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/RecipesAppDelegate.o0#
+
+CCompileC build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/RecipesAppDelegate.o /Users/adam/Documents/xcode/Recipes/Classes/RecipesAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318816692.126799
+e318816692.271887
+r1
+xCompileC
+xbuild/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/RecipesAppDelegate.o
+x/Users/adam/Documents/xcode/Recipes/Classes/RecipesAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/adam/Documents/xcode/Recipes/Classes/RecipesAppDelegate.m318816692#318816692#0(0"0(0#0#64"/Users/adam/Documents/xcode/Recipes/Classes/RecipesAppDelegate.m8636695232#1917"    cd /Users/adam/Documents/xcode/Recipes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-generated-files.hmap -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-own-target-headers.hmap -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-all-target-headers.hmap -iquote /Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-project-headers.hmap -F/Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator -I/Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator/include -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources/i386 -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources -include /var/folders/T3/T3UgSv8GEbm521qJWwgMxE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-cdyudtjddqbpixcmrlgnjoygfgko/Recipes_Prefix.pch -c /Users/adam/Documents/xcode/Recipes/Classes/RecipesAppDelegate.m -o /Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/RecipesAppDelegate.o0#
+
+CCompileC build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/RecipesViewController.o /Users/adam/Desktop/Recipes/Classes/RecipesViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s295911651.504008
+e295911651.702517
+r1
+xCompileC
+xbuild/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/RecipesViewController.o
+x/Users/adam/Desktop/Recipes/Classes/RecipesViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/adam/Desktop/Recipes/Classes/RecipesViewController.m295911651#295911651#0(0"0(0#0#59"/Users/adam/Desktop/Recipes/Classes/RecipesViewController.m4300911832#1780"    cd /Users/adam/Desktop/Recipes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/adam/Desktop/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-generated-files.hmap -I/Users/adam/Desktop/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-own-target-headers.hmap -I/Users/adam/Desktop/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-all-target-headers.hmap -iquote /Users/adam/Desktop/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-project-headers.hmap -F/Users/adam/Desktop/Recipes/build/Debug-iphonesimulator -I/Users/adam/Desktop/Recipes/build/Debug-iphonesimulator/include -I/Users/adam/Desktop/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources/i386 -I/Users/adam/Desktop/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources -include /var/folders/3r/3riDG++XFXuIKtHbtWYp6k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-bqwohajiadulgehfriokfevpumji/Recipes_Prefix.pch -c /Users/adam/Desktop/Recipes/Classes/RecipesViewController.m -o /Users/adam/Desktop/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/RecipesViewController.o0#
+
+CCompileC build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/RecipesViewController.o /Users/adam/Documents/xcode/Recipes/Classes/RecipesViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318816692.200545
+e318816692.343393
+r1
+xCompileC
+xbuild/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/RecipesViewController.o
+x/Users/adam/Documents/xcode/Recipes/Classes/RecipesViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/adam/Documents/xcode/Recipes/Classes/RecipesViewController.m318816692#318816692#0(0"0(0#0#67"/Users/adam/Documents/xcode/Recipes/Classes/RecipesViewController.m8636417920#1923"    cd /Users/adam/Documents/xcode/Recipes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-generated-files.hmap -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-own-target-headers.hmap -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-all-target-headers.hmap -iquote /Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-project-headers.hmap -F/Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator -I/Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator/include -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources/i386 -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources -include /var/folders/T3/T3UgSv8GEbm521qJWwgMxE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-cdyudtjddqbpixcmrlgnjoygfgko/Recipes_Prefix.pch -c /Users/adam/Documents/xcode/Recipes/Classes/RecipesViewController.m -o /Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/RecipesViewController.o0#
+
+CCompileC build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/SQLiteAccess.o /Users/adam/Desktop/Recipes/Classes/SQLiteAccess.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s295911651.835328
+e295911651.955511
+r1
+xCompileC
+xbuild/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/SQLiteAccess.o
+x/Users/adam/Desktop/Recipes/Classes/SQLiteAccess.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /Users/adam/Desktop/Recipes/Classes/SQLiteAccess.m295911651#295911651#0(0"0(0#0#50"/Users/adam/Desktop/Recipes/Classes/SQLiteAccess.m4300911832#1762"    cd /Users/adam/Desktop/Recipes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/adam/Desktop/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-generated-files.hmap -I/Users/adam/Desktop/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-own-target-headers.hmap -I/Users/adam/Desktop/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-all-target-headers.hmap -iquote /Users/adam/Desktop/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-project-headers.hmap -F/Users/adam/Desktop/Recipes/build/Debug-iphonesimulator -I/Users/adam/Desktop/Recipes/build/Debug-iphonesimulator/include -I/Users/adam/Desktop/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources/i386 -I/Users/adam/Desktop/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources -include /var/folders/3r/3riDG++XFXuIKtHbtWYp6k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-bqwohajiadulgehfriokfevpumji/Recipes_Prefix.pch -c /Users/adam/Desktop/Recipes/Classes/SQLiteAccess.m -o /Users/adam/Desktop/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/SQLiteAccess.o0#
+
+CCompileC build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/SQLiteAccess.o /Users/adam/Documents/xcode/Recipes/../../../Downloads/v-bdiphone-v-05-code/Recipes/Classes/SQLiteAccess.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/SQLiteAccess.o /Users/adam/Documents/xcode/Recipes/Classes/SQLiteAccess.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318816692.463163
+e318816692.576054
+r1
+xCompileC
+xbuild/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/SQLiteAccess.o
+x/Users/adam/Documents/xcode/Recipes/Classes/SQLiteAccess.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/adam/Documents/xcode/Recipes/Classes/SQLiteAccess.m: In function '+[SQLiteAccess pathToDB]':
+o/Users/adam/Documents/xcode/Recipes/Classes/SQLiteAccess.m:62: warning: 'createDirectoryAtPath:attributes:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSFileManager.h:168)
+lSLF07#2@66"Compile /Users/adam/Documents/xcode/Recipes/Classes/SQLiteAccess.m318816692#318816692#0(395"/Users/adam/Documents/xcode/Recipes/Classes/SQLiteAccess.m: In function '+[SQLiteAccess pathToDB]':/Users/adam/Documents/xcode/Recipes/Classes/SQLiteAccess.m:62: warning: 'createDirectoryAtPath:attributes:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSFileManager.h:168)1(22@222"'createDirectoryAtPath:attributes:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSFileManager.h:168)318816692#100#295#0(6@58"/Users/adam/Documents/xcode/Recipes/Classes/SQLiteAccess.m256950518#62#0#62#0#33"'*' is deprecated (declared at *)0(0#0#58"/Users/adam/Documents/xcode/Recipes/Classes/SQLiteAccess.m8634460352#1905"    cd /Users/adam/Documents/xcode/Recipes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-generated-files.hmap -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-own-target-headers.hmap -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-all-target-headers.hmap -iquote /Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-project-headers.hmap -F/Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator -I/Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator/include -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources/i386 -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources -include /var/folders/T3/T3UgSv8GEbm521qJWwgMxE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-cdyudtjddqbpixcmrlgnjoygfgko/Recipes_Prefix.pch -c /Users/adam/Documents/xcode/Recipes/Classes/SQLiteAccess.m -o /Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/SQLiteAccess.o0#
+
+CCompileC build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/main.o /Users/adam/Desktop/Recipes/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s295911651.434803
+e295911651.503739
+r1
+xCompileC
+xbuild/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/main.o
+x/Users/adam/Desktop/Recipes/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@42"Compile /Users/adam/Desktop/Recipes/main.m295911651#295911651#0(0"0(0#0#34"/Users/adam/Desktop/Recipes/main.m4300911832#1738"    cd /Users/adam/Desktop/Recipes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/adam/Desktop/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-generated-files.hmap -I/Users/adam/Desktop/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-own-target-headers.hmap -I/Users/adam/Desktop/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-all-target-headers.hmap -iquote /Users/adam/Desktop/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-project-headers.hmap -F/Users/adam/Desktop/Recipes/build/Debug-iphonesimulator -I/Users/adam/Desktop/Recipes/build/Debug-iphonesimulator/include -I/Users/adam/Desktop/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources/i386 -I/Users/adam/Desktop/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources -include /var/folders/3r/3riDG++XFXuIKtHbtWYp6k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-bqwohajiadulgehfriokfevpumji/Recipes_Prefix.pch -c /Users/adam/Desktop/Recipes/main.m -o /Users/adam/Desktop/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/main.o0#
+
+CCompileC build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/main.o /Users/adam/Documents/xcode/Recipes/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318816692.125607
+e318816692.200432
+r1
+xCompileC
+xbuild/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/main.o
+x/Users/adam/Documents/xcode/Recipes/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@50"Compile /Users/adam/Documents/xcode/Recipes/main.m318816692#318816692#0(0"0(0#0#42"/Users/adam/Documents/xcode/Recipes/main.m8632218176#1881"    cd /Users/adam/Documents/xcode/Recipes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-generated-files.hmap -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-own-target-headers.hmap -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-all-target-headers.hmap -iquote /Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-project-headers.hmap -F/Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator -I/Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator/include -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources/i386 -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources -include /var/folders/T3/T3UgSv8GEbm521qJWwgMxE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-cdyudtjddqbpixcmrlgnjoygfgko/Recipes_Prefix.pch -c /Users/adam/Documents/xcode/Recipes/main.m -o /Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/adam/Desktop/Recipes/AddIngredient.xib
+r0
+
+CCompileXIB /Users/adam/Desktop/Recipes/AddRecipe.xib
+r0
+
+CCompileXIB /Users/adam/Desktop/Recipes/Ingredients.xib
+r0
+
+CCompileXIB /Users/adam/Desktop/Recipes/MainWindow.xib
+r0
+
+CCompileXIB /Users/adam/Desktop/Recipes/Recipes.xib
+r0
+
+CCompileXIB /Users/adam/Documents/xcode/Recipes/AddIngredient.xib
+s318816690.511720
+e318816691.086212
+r1
+xCompileXIB
+x/Users/adam/Documents/xcode/Recipes/AddIngredient.xib
+lSLF07#2@28"CompileXIB AddIngredient.xib318816690#318816691#0(0"0(0#0#53"/Users/adam/Documents/xcode/Recipes/AddIngredient.xib8634833216#567"    cd /Users/adam/Documents/xcode/Recipes    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator/Recipes.app/AddIngredient.nib /Users/adam/Documents/xcode/Recipes/AddIngredient.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/adam/Documents/xcode/Recipes/AddRecipe.xib
+s318816690.148337
+e318816690.818459
+r1
+xCompileXIB
+x/Users/adam/Documents/xcode/Recipes/AddRecipe.xib
+lSLF07#2@24"CompileXIB AddRecipe.xib318816690#318816690#0(0"0(0#0#49"/Users/adam/Documents/xcode/Recipes/AddRecipe.xib8627160512#559"    cd /Users/adam/Documents/xcode/Recipes    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator/Recipes.app/AddRecipe.nib /Users/adam/Documents/xcode/Recipes/AddRecipe.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/adam/Documents/xcode/Recipes/Ingredients.xib
+s318816690.024435
+e318816690.511624
+r1
+xCompileXIB
+x/Users/adam/Documents/xcode/Recipes/Ingredients.xib
+lSLF07#2@26"CompileXIB Ingredients.xib318816690#318816690#0(0"0(0#0#51"/Users/adam/Documents/xcode/Recipes/Ingredients.xib8633453984#563"    cd /Users/adam/Documents/xcode/Recipes    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator/Recipes.app/Ingredients.nib /Users/adam/Documents/xcode/Recipes/Ingredients.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/adam/Documents/xcode/Recipes/MainWindow.xib
+s318816689.506100
+e318816690.024331
+r1
+xCompileXIB
+x/Users/adam/Documents/xcode/Recipes/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib318816689#318816690#0(0"0(0#0#50"/Users/adam/Documents/xcode/Recipes/MainWindow.xib8635760000#561"    cd /Users/adam/Documents/xcode/Recipes    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator/Recipes.app/MainWindow.nib /Users/adam/Documents/xcode/Recipes/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/adam/Documents/xcode/Recipes/Recipes.xib
+s318816689.506872
+e318816690.148240
+r1
+xCompileXIB
+x/Users/adam/Documents/xcode/Recipes/Recipes.xib
+lSLF07#2@22"CompileXIB Recipes.xib318816689#318816690#0(0"0(0#0#47"/Users/adam/Documents/xcode/Recipes/Recipes.xib8635679936#555"    cd /Users/adam/Documents/xcode/Recipes    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator/Recipes.app/Recipes.nib /Users/adam/Documents/xcode/Recipes/Recipes.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/adam/Documents/xcode/Recipes/RecipesViewController.xib
+s293288024.846046
+e293288025.346169
+r1
+xCompileXIB
+x/Users/adam/Documents/xcode/Recipes/RecipesViewController.xib
+lSLF07#2@36"CompileXIB RecipesViewController.xib293288024#293288025#0(0"0(0#0#61"/Users/adam/Documents/xcode/Recipes/RecipesViewController.xib4300885448#495"    cd /Users/adam/Documents/xcode/Recipes    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator/Recipes.app/RecipesViewController.nib /Users/adam/Documents/xcode/Recipes/RecipesViewController.xib0#
+
+CCpResource build/Debug-iphonesimulator/Recipes.app/recipes.db recipes.db
+s318816690.818555
+e318816690.831150
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Recipes.app/recipes.db
+xrecipes.db
+lSLF07#2@15"Copy recipes.db318816690#318816690#0(0"0(0#0#46"/Users/adam/Documents/xcode/Recipes/recipes.db8632833248#459"    cd /Users/adam/Documents/xcode/Recipes    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/adam/Documents/xcode/Recipes/recipes.db /Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator/Recipes.app0#
+
+CCpResource build/Debug-iphonesimulator/Recipes.app/recipes.sql recipes.sql
+s318816690.821182
+e318816690.832092
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Recipes.app/recipes.sql
+xrecipes.sql
+lSLF07#2@16"Copy recipes.sql318816690#318816690#0(0"0(0#0#47"/Users/adam/Documents/xcode/Recipes/recipes.sql8631467968#460"    cd /Users/adam/Documents/xcode/Recipes    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/adam/Documents/xcode/Recipes/recipes.sql /Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator/Recipes.app0#
+
+CGenerateDSYMFile /Users/adam/Desktop/Recipes/build/Debug-iphonesimulator/Recipes.app.dSYM /Users/adam/Desktop/Recipes/build/Debug-iphonesimulator/Recipes.app/Recipes
+s295911679.258842
+e295911679.285384
+r1
+xGenerateDSYMFile
+x/Users/adam/Desktop/Recipes/build/Debug-iphonesimulator/Recipes.app.dSYM
+x/Users/adam/Desktop/Recipes/build/Debug-iphonesimulator/Recipes.app/Recipes
+lSLF07#2@109"GenerateDSYMFile build/Debug-iphonesimulator/Recipes.app.dSYM build/Debug-iphonesimulator/Recipes.app/Recipes295911679#295911679#0(0"0(0#0#75"/Users/adam/Desktop/Recipes/build/Debug-iphonesimulator/Recipes.app/Recipes4300911832#350"    cd /Users/adam/Desktop/Recipes    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/adam/Desktop/Recipes/build/Debug-iphonesimulator/Recipes.app/Recipes -o /Users/adam/Desktop/Recipes/build/Debug-iphonesimulator/Recipes.app.dSYM0#
+
+CGenerateDSYMFile /Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator/Recipes.app.dSYM /Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator/Recipes.app/Recipes
+s318816692.622633
+e318816692.653079
+r1
+xGenerateDSYMFile
+x/Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator/Recipes.app.dSYM
+x/Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator/Recipes.app/Recipes
+lSLF07#2@109"GenerateDSYMFile build/Debug-iphonesimulator/Recipes.app.dSYM build/Debug-iphonesimulator/Recipes.app/Recipes318816692#318816692#0(0"0(0#0#83"/Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator/Recipes.app/Recipes8636580864#374"    cd /Users/adam/Documents/xcode/Recipes    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator/Recipes.app/Recipes -o /Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator/Recipes.app.dSYM0#
+
+CLd /Users/adam/Desktop/Recipes/build/Debug-iphonesimulator/Recipes.app/Recipes normal i386
+s295911679.229164
+e295911679.258705
+r1
+xLd
+x/Users/adam/Desktop/Recipes/build/Debug-iphonesimulator/Recipes.app/Recipes
+xnormal
+xi386
+lSLF07#2@80"Link /Users/adam/Desktop/Recipes/build/Debug-iphonesimulator/Recipes.app/Recipes295911679#295911679#0(0"0(0#0#0"4300911832#819"    cd /Users/adam/Desktop/Recipes    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -L/Users/adam/Desktop/Recipes/build/Debug-iphonesimulator -F/Users/adam/Desktop/Recipes/build/Debug-iphonesimulator -filelist /Users/adam/Desktop/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/Recipes.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -lsqlite3 -o /Users/adam/Desktop/Recipes/build/Debug-iphonesimulator/Recipes.app/Recipes0#
+
+CLd /Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator/Recipes.app/Recipes normal i386
+s318816692.576164
+e318816692.622374
+r1
+xLd
+x/Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator/Recipes.app/Recipes
+xnormal
+xi386
+lSLF07#2@88"Link /Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator/Recipes.app/Recipes318816692#318816692#0(0"0(0#0#0"8634310944#895"    cd /Users/adam/Documents/xcode/Recipes    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator -F/Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator -filelist /Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Objects-normal/i386/Recipes.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -lsqlite3 -o /Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator/Recipes.app/Recipes0#
+
+CProcessInfoPlistFile /Users/adam/Desktop/Recipes/build/Debug-iphonesimulator/Recipes.app/Info.plist Recipes-Info.plist
+r0
+
+CProcessInfoPlistFile /Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator/Recipes.app/Info.plist Recipes-Info.plist
+s318816689.483724
+e318816689.506007
+r1
+xProcessInfoPlistFile
+x/Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator/Recipes.app/Info.plist
+xRecipes-Info.plist
+lSLF07#2@26"Process Recipes-Info.plist318816689#318816689#0(0"0(0#0#54"/Users/adam/Documents/xcode/Recipes/Recipes-Info.plist8636465728#470"    cd /Users/adam/Documents/xcode/Recipes    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Recipes-Info.plist -genpkginfo /Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator/Recipes.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator/Recipes.app/Info.plist0#
+
+CProcessPCH /var/folders/3r/3riDG++XFXuIKtHbtWYp6k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-anslbqwnymzxxhfdaqbgohyyrcsq/Recipes_Prefix.pch.gch Recipes_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s295718548.449686
+e295718549.716973
+r1
+xProcessPCH
+x/var/folders/3r/3riDG++XFXuIKtHbtWYp6k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-anslbqwnymzxxhfdaqbgohyyrcsq/Recipes_Prefix.pch.gch
+xRecipes_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile Recipes_Prefix.pch295718548#295718549#0(0"0(0#0#54"/Users/adam/Documents/xcode/Recipes/Recipes_Prefix.pch4300911832#1721"    cd /Users/adam/Documents/xcode/Recipes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-generated-files.hmap -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-own-target-headers.hmap -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-all-target-headers.hmap -iquote /Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-project-headers.hmap -F/Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator -I/Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator/include -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources/i386 -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources -c /Users/adam/Documents/xcode/Recipes/Recipes_Prefix.pch -o /var/folders/3r/3riDG++XFXuIKtHbtWYp6k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-anslbqwnymzxxhfdaqbgohyyrcsq/Recipes_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/3r/3riDG++XFXuIKtHbtWYp6k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-bqwohajiadulgehfriokfevpumji/Recipes_Prefix.pch.gch Recipes_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s295911650.650300
+e295911651.434530
+r1
+xProcessPCH
+x/var/folders/3r/3riDG++XFXuIKtHbtWYp6k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-bqwohajiadulgehfriokfevpumji/Recipes_Prefix.pch.gch
+xRecipes_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile Recipes_Prefix.pch295911650#295911651#0(0"0(0#0#46"/Users/adam/Desktop/Recipes/Recipes_Prefix.pch4300911832#1641"    cd /Users/adam/Desktop/Recipes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/adam/Desktop/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-generated-files.hmap -I/Users/adam/Desktop/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-own-target-headers.hmap -I/Users/adam/Desktop/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-all-target-headers.hmap -iquote /Users/adam/Desktop/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-project-headers.hmap -F/Users/adam/Desktop/Recipes/build/Debug-iphonesimulator -I/Users/adam/Desktop/Recipes/build/Debug-iphonesimulator/include -I/Users/adam/Desktop/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources/i386 -I/Users/adam/Desktop/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources -c /Users/adam/Desktop/Recipes/Recipes_Prefix.pch -o /var/folders/3r/3riDG++XFXuIKtHbtWYp6k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-bqwohajiadulgehfriokfevpumji/Recipes_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/3r/3riDG++XFXuIKtHbtWYp6k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-dnvgcilhkhdkthbbtqprfrtzrbec/Recipes_Prefix.pch.gch Recipes_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s293209893.532403
+e293209894.775036
+r1
+xProcessPCH
+x/var/folders/3r/3riDG++XFXuIKtHbtWYp6k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-dnvgcilhkhdkthbbtqprfrtzrbec/Recipes_Prefix.pch.gch
+xRecipes_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile Recipes_Prefix.pch293209893#293209894#0(0"0(0#0#54"/Users/adam/Documents/xcode/Recipes/Recipes_Prefix.pch4300885448#1721"    cd /Users/adam/Documents/xcode/Recipes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-generated-files.hmap -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-own-target-headers.hmap -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-all-target-headers.hmap -iquote /Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-project-headers.hmap -F/Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator -I/Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator/include -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources/i386 -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources -c /Users/adam/Documents/xcode/Recipes/Recipes_Prefix.pch -o /var/folders/3r/3riDG++XFXuIKtHbtWYp6k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-dnvgcilhkhdkthbbtqprfrtzrbec/Recipes_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/3r/3riDG++XFXuIKtHbtWYp6k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-dovphtylajrwojetvdiojsdrahqj/Recipes_Prefix.pch.gch Recipes_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s295717267.462236
+e295717268.504329
+r1
+xProcessPCH
+x/var/folders/3r/3riDG++XFXuIKtHbtWYp6k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-dovphtylajrwojetvdiojsdrahqj/Recipes_Prefix.pch.gch
+xRecipes_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile Recipes_Prefix.pch295717267#295717268#0(0"0(0#0#54"/Users/adam/Documents/xcode/Recipes/Recipes_Prefix.pch4300911832#1721"    cd /Users/adam/Documents/xcode/Recipes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-generated-files.hmap -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-own-target-headers.hmap -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-all-target-headers.hmap -iquote /Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-project-headers.hmap -F/Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator -I/Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator/include -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources/i386 -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources -c /Users/adam/Documents/xcode/Recipes/Recipes_Prefix.pch -o /var/folders/3r/3riDG++XFXuIKtHbtWYp6k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-dovphtylajrwojetvdiojsdrahqj/Recipes_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/3r/3riDG++XFXuIKtHbtWYp6k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-erqhebbedpgqwecxtkhskznunczo/Recipes_Prefix.pch.gch Recipes_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s295717232.751448
+e295717234.649652
+r1
+xProcessPCH
+x/var/folders/3r/3riDG++XFXuIKtHbtWYp6k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-erqhebbedpgqwecxtkhskznunczo/Recipes_Prefix.pch.gch
+xRecipes_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile Recipes_Prefix.pch295717232#295717234#0(0"0(0#0#54"/Users/adam/Documents/xcode/Recipes/Recipes_Prefix.pch4300911832#1719"    cd /Users/adam/Documents/xcode/Recipes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-generated-files.hmap -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-own-target-headers.hmap -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-all-target-headers.hmap -iquote /Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-project-headers.hmap -F/Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator -I/Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator/include -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources/i386 -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources -c /Users/adam/Documents/xcode/Recipes/Recipes_Prefix.pch -o /var/folders/3r/3riDG++XFXuIKtHbtWYp6k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-erqhebbedpgqwecxtkhskznunczo/Recipes_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/3r/3riDG++XFXuIKtHbtWYp6k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-flrpyioayllgibahqodrovelggig/Recipes_Prefix.pch.pth Recipes_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+s293408901.591633
+e293408902.178778
+r1
+xProcessPCH
+x/var/folders/3r/3riDG++XFXuIKtHbtWYp6k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-flrpyioayllgibahqodrovelggig/Recipes_Prefix.pch.pth
+xRecipes_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.analyzer
+lSLF07#2@29"Precompile Recipes_Prefix.pch293408901#293408902#0(0"0(0#0#54"/Users/adam/Documents/xcode/Recipes/Recipes_Prefix.pch4300885448#1712"    cd /Users/adam/Documents/xcode/Recipes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-generated-files.hmap -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-own-target-headers.hmap -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-all-target-headers.hmap -iquote /Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-project-headers.hmap -F/Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator -I/Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator/include -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources/i386 -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources -c /Users/adam/Documents/xcode/Recipes/Recipes_Prefix.pch -o /var/folders/3r/3riDG++XFXuIKtHbtWYp6k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-flrpyioayllgibahqodrovelggig/Recipes_Prefix.pch.pth0#
+
+CProcessPCH /var/folders/T3/T3UgSv8GEbm521qJWwgMxE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-cdyudtjddqbpixcmrlgnjoygfgko/Recipes_Prefix.pch.gch Recipes_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s318816691.086485
+e318816692.125493
+r1
+xProcessPCH
+x/var/folders/T3/T3UgSv8GEbm521qJWwgMxE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-cdyudtjddqbpixcmrlgnjoygfgko/Recipes_Prefix.pch.gch
+xRecipes_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile Recipes_Prefix.pch318816691#318816692#0(0"0(0#0#54"/Users/adam/Documents/xcode/Recipes/Recipes_Prefix.pch8637073120#1776"    cd /Users/adam/Documents/xcode/Recipes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-generated-files.hmap -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-own-target-headers.hmap -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-all-target-headers.hmap -iquote /Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-project-headers.hmap -F/Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator -I/Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator/include -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources/i386 -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources -c /Users/adam/Documents/xcode/Recipes/Recipes_Prefix.pch -o /var/folders/T3/T3UgSv8GEbm521qJWwgMxE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-cdyudtjddqbpixcmrlgnjoygfgko/Recipes_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/T3/T3UgSv8GEbm521qJWwgMxE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-dtxxfzqszrriymamwajlrnrhxxqi/Recipes_Prefix.pch.gch Recipes_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s318710072.286074
+e318710073.840519
+r1
+xProcessPCH
+x/var/folders/T3/T3UgSv8GEbm521qJWwgMxE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-dtxxfzqszrriymamwajlrnrhxxqi/Recipes_Prefix.pch.gch
+xRecipes_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile Recipes_Prefix.pch318710072#318710073#0(0"0(0#0#54"/Users/adam/Documents/xcode/Recipes/Recipes_Prefix.pch8604404704#1776"    cd /Users/adam/Documents/xcode/Recipes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-generated-files.hmap -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-own-target-headers.hmap -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-all-target-headers.hmap -iquote /Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/Recipes-project-headers.hmap -F/Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator -I/Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator/include -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources/i386 -I/Users/adam/Documents/xcode/Recipes/build/Recipes.build/Debug-iphonesimulator/Recipes.build/DerivedSources -c /Users/adam/Documents/xcode/Recipes/Recipes_Prefix.pch -o /var/folders/T3/T3UgSv8GEbm521qJWwgMxE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Recipes_Prefix-dtxxfzqszrriymamwajlrnrhxxqi/Recipes_Prefix.pch.gch0#
+
+CTouch /Users/adam/Desktop/Recipes/build/Debug-iphonesimulator/Recipes.app
+s295911679.285486
+e295911679.289446
+r1
+xTouch
+x/Users/adam/Desktop/Recipes/build/Debug-iphonesimulator/Recipes.app
+lSLF07#2@73"Touch /Users/adam/Desktop/Recipes/build/Debug-iphonesimulator/Recipes.app295911679#295911679#0(0"0(0#0#0"4300911832#256"    cd /Users/adam/Desktop/Recipes    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/adam/Desktop/Recipes/build/Debug-iphonesimulator/Recipes.app0#
+
+CTouch /Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator/Recipes.app
+s318816692.653169
+e318816692.657777
+r1
+xTouch
+x/Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator/Recipes.app
+lSLF07#2@81"Touch /Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator/Recipes.app318816692#318816692#0(0"0(0#0#0"8635929920#272"    cd /Users/adam/Documents/xcode/Recipes    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/adam/Documents/xcode/Recipes/build/Debug-iphonesimulator/Recipes.app0#
+
